@@ -13,5 +13,4 @@ closeModalBtn.addEventListener("click", () => {
 
 overlay.addEventListener("click", () => {
     overlay.style.display = "none";
-    modal.style.display = "block";
 })
