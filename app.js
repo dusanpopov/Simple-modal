@@ -1,7 +1,7 @@
-const overlay = document.getElementById("overlay");
-const modal = document.getElementById("modal");
-const openModalBtn = document.getElementById("open-modal");
-const closeModalBtn = document.getElementById("close-modal");
+const overlay = document.querySelector(".overlay");
+const modal = document.querySelector(".modal");
+const openModalBtn = document.querySelector(".modal-btn__open");
+const closeModalBtn = document.querySelector(".modal__btn-close");
 
 openModalBtn.addEventListener("click", () => {
     overlay.style.display = "block";
