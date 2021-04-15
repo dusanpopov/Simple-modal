@@ -9,8 +9,8 @@ openModalBtn.addEventListener("click", () => {
 
 closeModalBtn.addEventListener("click", () => {
     overlay.style.display = "none";
-})
+});
 
 overlay.addEventListener("click", () => {
     overlay.style.display = "none";
-})
+});
